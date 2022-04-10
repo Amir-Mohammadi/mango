@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "msjsdiag.vscode-react-native",
+    "esbenp.prettier-vscode",
+    "streetsidesoftware.code-spell-checker",
+    "dbaeumer.vscode-eslint",
+    "streetsidesoftware.code-spell-checker-persian",
+    "dsznajder.es7-react-js-snippets"
+  ]
+}

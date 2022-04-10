@@ -1,0 +1,57 @@
+{
+  "folders": [
+    {
+      "name": "Petit",
+      "path": "../petit/petit"
+    },
+    {
+      "name": "Porto",
+      "path": "../porto"
+    },
+    {
+      "name": "Base Core",
+      "path": "../petit/base-core"
+    },
+    {
+      "name": "ROOT",
+      "path": ".."
+    },
+    {
+      "name": "Hermes",
+      "path": "../hermes"
+    },
+    {
+      "name": "New Adios",
+      "path": "../adios-new"
+    }
+  ],
+  "settings": {
+    "eslint.workingDirectories": [
+      "../porto"
+    ],
+    "cSpell.words": [
+      "commitlint",
+      "elevia",
+      "Hotspot",
+      "parlar",
+      "SSID",
+      "thingsboard"
+    ],
+    "i18n-ally.localesPaths": [
+      "adios-new/src/locales"
+    ],
+    "i18n-ally.keystyle": "nested",
+    "i18n-ally.enabledFrameworks": [
+      "general",
+      "react",
+      "i18next"
+    ],
+    "i18n-ally.namespace": true,
+    "i18n-ally.defaultNamespace": "common",
+    "i18n-ally.extract.autoDetect": true,
+    "i18n-ally.keysInUse": [
+      "common.languages.*"
+    ],
+    "i18n-ally.sourceLanguage": "fa"
+  },
+}

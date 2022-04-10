@@ -1,0 +1,67 @@
+{
+  "cSpell.words": [
+    "Apisauce",
+    "arrowleft",
+    "bootsplash",
+    "bootup",
+    "BSSI",
+    "BSSID",
+    "camelcase",
+    "Cmds",
+    "elevia",
+    "ellipsize",
+    "Esptouch",
+    "hossein",
+    "Hotspot",
+    "ionicon",
+    "libphonenumber",
+    "Morty",
+    "multiline",
+    "octicon",
+    "paren",
+    "Parens",
+    "parlar",
+    "Persistor",
+    "Pressable",
+    "reactotron",
+    "rescan",
+    "setvalue",
+    "SSID",
+    "uncommite",
+    "Wifis",
+    "آپدیت",
+    "ازای",
+    "پارلار",
+    "زبانگی"
+  ],
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cSpell.language": "en,fa",
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "editor.lineHeight": 1.5,
+  "editor.foldingImportsByDefault": true,
+  "typescript.referencesCodeLens.enabled": true,
+  "typescript.inlayHints.parameterNames.enabled": "literals",
+  "typescript.inlayHints.enumMemberValues.enabled": true,
+  "typescript.inlayHints.variableTypes.enabled": true,
+  "typescript.inlayHints.functionLikeReturnTypes.enabled": false,
+  // "files.exclude": {
+  //   "**/.git": true,
+  //   "**/.svn": true,
+  //   "**/.hg": true,
+  //   "**/CVS": true,
+  //   "**/.DS_Store": true,
+  //   "**/node_modules": true
+  // },
+  "files.eol": "\r\n",
+  "editor.tabSize": 2,
+  "workbench.colorCustomizations": {
+    "tab.activeBorder": "#ff0000",
+    "tab.unfocusedActiveBorder": "#000000"
+  },
+  "editor.suggestSelection": "first"
+}

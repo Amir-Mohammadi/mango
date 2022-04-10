@@ -1,0 +1,4 @@
+babel.config.js
+metro.config.js
+commitlint.config.js
+*

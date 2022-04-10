@@ -1,0 +1,34 @@
+import { StyleProp, TextStyle, ViewStyle } from 'react-native';
+import { <%= props.pascalCaseName %>Variants } from './<%= props.kebabCaseName %>.variants';
+
+export interface <%= props.pascalCaseName %>Props {
+  /**
+   * The Placeholder text
+   */
+  placeholder?: string;
+
+  /**
+   * The label text
+   */
+  label?: string;
+
+  /**
+   * Optional container style overrides useful for margins & padding
+   */
+  containerStyle?: StyleProp<ViewStyle>;
+
+  /**
+   * Optional text style overrides useful for font size or color
+   */
+  textStyle?: StyleProp<ViewStyle>;
+
+  /**
+   * Optional style overrides for the input
+   */
+  inputStyle?: StyleProp<TextStyle>;
+  
+  /**
+   * One of the different types of <%= props.camelCaseName %> variant
+   */
+  variant: <%= props.pascalCaseName %>Variants;
+}

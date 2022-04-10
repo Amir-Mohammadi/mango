@@ -1,0 +1,28 @@
+import * as React from 'react';
+import { View } from 'react-native';
+import { Text } from '../text';
+import { <%= props.pascalCaseName %>Props } from './<%= props.kebabCaseName %>.props';
+import { containerVariants, textVariants } from './<%= props.kebabCaseName %>.variants';
+
+/**
+ * Describe your component here
+ */
+export const <%= props.pascalCaseName %>: React.FC<<%= props.pascalCaseName %>Props> = props => {
+  const {
+    containerStyle: styleOverwrite,
+    textStyle: textOverwriteStyle,
+    variant = 'default',
+  } = props;
+
+  const containerStyleVariant = containerVariants[variant];
+  const containerStyle = [containerStyleVariant, styleOverwrite];
+
+  const textStyleVariant = textVariants[variant];
+  const textStyle = [textStyleVariant, textOverwriteStyle];
+
+  return (
+    <View style={containerStyle}>
+      <Text style={textStyle}>Hello</Text>
+    </View>
+  );
+};

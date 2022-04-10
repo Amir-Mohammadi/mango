@@ -1,0 +1,9 @@
+{
+  "*.json": "prettier --write",
+  "*.{js,jsx,ts,tsx}": [
+    "tsc-files --noEmit --incremental false",
+    "organize-imports-cli",
+    "eslint --fix --cache",
+    "prettier --write"
+  ]
+}

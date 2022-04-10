@@ -1,0 +1,10 @@
+{
+  "src/mocks/**/*.{yaml,yml}": "yarn docs:build",
+  "*.{ts,tsx,js,jsx}": [
+    "organize-imports-cli",
+    "prettier --write",
+    "eslint --cache --fix",
+    "tsc-files --noEmit --incremental false"
+  ],
+  "*.json": "prettier --write"
+}

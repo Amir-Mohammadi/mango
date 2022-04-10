@@ -1,0 +1,23 @@
+import { Button, Stack } from '@chakra-ui/react';
+import { Formiz } from '@formiz/core';
+import { isRequired } from '@formiz/validations';
+import React from 'react';
+import { FieldHidden } from '.';
+
+
+
+export default {
+  title: 'Fields/FieldHidden',
+};
+
+export const Default = () => (
+  <Formiz autoForm>
+    <Stack spacing={6}>
+      <FieldHidden
+        name="error"
+        validations={[{ rule: isRequired(), message: 'Field required' }]}
+      />
+      <Button type="submit">Submit</Button>
+    </Stack>
+  </Formiz>
+);

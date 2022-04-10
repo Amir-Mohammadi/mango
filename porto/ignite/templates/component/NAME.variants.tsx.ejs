@@ -1,0 +1,33 @@
+import { TextStyle, ViewStyle } from 'react-native';
+import { color, typography, spacing } from '../../theme';
+
+const CONTAINER: ViewStyle = {
+  justifyContent: 'center',
+  padding: spacing[1],
+};
+
+const TEXT: TextStyle = {
+  fontFamily: typography.primary,
+  fontSize: 14,
+  color: color.primary,
+};
+
+/**
+ * A list of variant names.
+ */
+export type <%= props.pascalCaseName %>Variants = 'default' | 'secondary';
+
+/**
+ * All the variations of styling within the app.
+ *
+ * You want to customize these to whatever you need in your app.
+ */
+export const containerVariants: Record<<%= props.pascalCaseName %>Variants, ViewStyle> = {
+  default: { ...CONTAINER, backgroundColor: color.palette.orange },
+  secondary: { ...CONTAINER, backgroundColor: color.palette.orangeDarker },
+};
+
+export const textVariants: Record<<%= props.pascalCaseName %>Variants, TextStyle> = {
+  default: { ...TEXT, color: color.palette.white },
+  secondary: { ...TEXT, fontSize: 9, color: color.palette.black },
+};

@@ -1,0 +1,13 @@
+{
+  "languages": {
+    "en": "English",
+    "fa": "Persian"
+  },
+  "actions": {
+    "activate": "Activate",
+    "cancel": "Cancel",
+    "deactivate": "Deactivate",
+    "delete": "Delete",
+    "edit": "Edit"
+  }
+}
